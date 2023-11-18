@@ -22,7 +22,35 @@ Welcome to the Shooting Enemy Game! In this action-packed game, you'll take cont
 We welcome contributions from the community! If you have any ideas or improvements, feel free to submit a pull request.
 
 
+# CAP3-Test_Pygame
+This part outlines the test cases for the Shooter Game. These test cases cover key functionalities and ensure the game functions as expected.
 
+# Test Case 1: Player Movement
+- Description: This test case verifies that the player's movement is correctly handled.
+- Steps:
+  1. Simulate a key press event for the left arrow key.
+  2. Check if the player's X position changes correctly.
+- Expected Result: The player's X position should decrease.
 
+# Test Case 2: Collision Detection
+- Description: This test case checks the collision detection mechanism in the game.
+- Steps:
+  1. Set up the bullet and invader positions.
+  2. Call the collision detection function.
+- Expected Result: The collision detection function should correctly detect collisions between the bullet and invader.
 
+# Test Case 3: Scoring
+- Description: This test case verifies that the scoring mechanism works as expected.
+- Steps:
+  1. Set up the initial score.
+  2. Perform actions that should increase the score.
+  3. Check if the score is updated correctly.
+- Expected Result: The score should increase based on the actions performed.
+
+# Test Case 4: Game Over Condition
+- Description: This test case checks the game over condition.
+- Steps:
+  1. Simulate the game over condition.
+  2. Check if the game ends correctly.
+- Expected Result: The game should end when the game over condition is met.
 
