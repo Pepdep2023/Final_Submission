@@ -1,0 +1,23 @@
+# Collision 
+def isCollision(x1, x2, y1, y2):
+    distance = math.sqrt((math.pow(x1 - x2,2)) +
+                         (math.pow(y1 - y2,2)))
+    if distance <= 50:
+        return True
+    else:
+        return False
+
+
+  # Collision
+    collision = isCollision(bullet_X, invader_X[i],
+                                bullet_Y, invader_Y[i])
+    if collision:
+            score_val += 1
+            bullet_Y = 600
+            bullet_state = "rest"
+            invader_X[i] = random.randint(64, 736)
+            invader_Y[i] = random.randint(30, 200)
+            invader_Xchange[i] *= -1
+ 
+            invader(invader_X[i], invader_Y[i], i)
+ 

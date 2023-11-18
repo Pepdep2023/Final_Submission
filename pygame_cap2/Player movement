@@ -1,0 +1,10 @@
+# Controlling the player movement
+        # from the arrow keys
+if event.type == pygame.KEYDOWN:
+    if event.key == pygame.K_LEFT:
+           player_Xchange = -1.7
+    if event.key == pygame.K_RIGHT:
+            player_Xchange = 1.7
+    if event.key == pygame.K_SPACE:
+               
+            player_Xchange = 0

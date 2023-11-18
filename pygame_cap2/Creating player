@@ -1,0 +1,6 @@
+#Player 
+playerImage = pygame.image.load('ufo.png')
+playerImage = pygame.transform.scale(playerImage,(40,50))
+player_X = 370
+player_Y = 523
+player_Xchange = 0

@@ -1,0 +1,2 @@
+#Screen fill(RGB)
+    screen.fill((0, 255, 0))

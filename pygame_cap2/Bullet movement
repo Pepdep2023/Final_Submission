@@ -1,0 +1,8 @@
+ # bullet movement
+if bullet_Y <= 0:
+        bullet_Y = 600
+        bullet_state = "rest"
+if bullet_state is "fire":
+        bullet(bullet_X, bullet_Y)
+        bullet_Y -= bullet_Ychange
+ 

@@ -1,0 +1,2 @@
+#Caption and Icon
+pygame.display.set_caption("Space Shooter")

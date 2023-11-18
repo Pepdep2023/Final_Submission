@@ -1,0 +1,10 @@
+# Background Sound
+mixer.music.load('background.wav')
+mixer.music.play(-1)
+
+bullet_sound = mixer.Sound('laser.wav')
+bullet_sound.play()
+
+explosion_sound = mixer.Sound('explosion.wav')
+explosion_sound.play()
+

@@ -1,0 +1,8 @@
+ # Fixing the change of direction of bullet
+if bullet_state is "rest":
+                    bullet_X = player_X
+                    bullet(bullet_X, bullet_Y)
+                    bullet_sound = mixer.Sound('data/bullet.wav')
+                    bullet_sound.play()
+if event.type == pygame.KEYUP:
+            player_Xchange = 0
